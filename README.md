@@ -11,3 +11,16 @@ pip3 install pandas
 pip3 install bs4
 pip3 install selenium
 ```
+
+### Usage
+
+Simply call the cl_flip.py script to run.  It was ask for your zipcode and maximum radius in miles.
+
+```python
+python3 cl_flip.py
+```
+
+### To Do:
+- [x] Add weighted score section
+- [ ] Find the approximate distance from user to item and use this information in weighted score
+
