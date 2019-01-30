@@ -4,6 +4,12 @@ Web scrapping Craigslist's "Free" section for items that can be resold for a pro
 
 ### Prerequisites
 
+Make sure to download chromedriver and place the chromedriver into your usr/local/bin.  You can install the chromedriver using the homebrew command:
+
+```
+brew install chromedriver
+```
+
 In order to run this on your machine download the following modules:
 
 ```
@@ -23,4 +29,4 @@ python3 cl_flip.py
 ### To Do:
 - [x] Add weighted score section
 - [ ] Find the approximate distance from user to item and use this information in weighted score
-
+- [ ] Construct better model to analyze accurate price for items
